@@ -138,7 +138,7 @@ function MessagePage() {
             onClick={fetchSuggestedMessages}
             className="my-4"
             // disabled={isSuggestLoading}
-            disabled={false}
+            disabled={true}
           >
             Suggest Messages
           </Button>
