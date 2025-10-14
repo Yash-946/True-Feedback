@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# TrueFeedback
+https://github.com/user-attachments/assets/d9b096d0-1bc2-478a-8f11-f6cd26d9414f
 
-First, run the development server:
+![Screenshot 2024-08-04 115402](https://github.com/user-attachments/assets/e9e6512c-c859-444a-978d-644a0398317a)
+![Screenshot 2024-08-04 115304](https://github.com/user-attachments/assets/99435dd3-7555-45a5-89d7-4eeef4276db6)
+![Screenshot 2024-08-04 115210](https://github.com/user-attachments/assets/f2e6a264-2424-440a-b227-0e9cf309ab4b)
+![Screenshot 2024-08-04 115144](https://github.com/user-attachments/assets/5e3ca808-8283-4bff-8e1f-f226184a1261)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**TrueFeedback** is a platform that enables users to gather feedback through a unique link shared with others. Users can sign up with an OTP sent to their email, manage feedback, and get AI-suggested messages. 
 
-## Learn More
+### Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **OTP Authentication:** Secure sign-up with email verification.
+- **AI-Suggested Messages:** Get smart suggestions to improve your feedback.
+- **User Dashboard:** Manage feedback links and monitor responses.
+- **Scalability:** Built with Next.js, Resend, NextAuth and MongoDB, ensuring a robust and scalable backend.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Frontend:** Next.js, Tailwind CSS, Shadcn
+- **Backend:** Next.js, MongoDB,
+- **Authentication:** NextAuth.js
+- **AI Integration:** Gemini AI
+- **Email:** Resend
+- **Hosting:** Vercel
 
-## Deploy on Vercel
+## Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Yash-946/True-Feedback.git
+    cd True-Feedback
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Set up environment variables:
+    ```bash
+    cp .env.example .env
+    # Add your credentials to .env
+    ```
+
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Visit `http://localhost:3000` to view the app.
+
+---
+
+*Check out the live project here: [TrueFeedback](https://truefeedback.yashagrawal.top/)*
